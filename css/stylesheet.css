@@ -40,6 +40,10 @@ button {
     font-weight: 700;
 }
 
+li {
+    list-style: none;
+}
+
 /***** header *****/
 header {
     background-color: var(--section-bg-1);
@@ -555,7 +559,7 @@ input:focus {
     margin: 0px 1px;
 }
 
-.owl-carousel .owl-item img {
+.reputation-matters .owl-carousel .owl-item img {
     display: block;
     width: 155px !important;
     height: 197px;
@@ -628,7 +632,8 @@ input:focus {
     padding-left: 70px;
     margin-top: 13px;
 }
-.map-section .CALL{
+
+.map-section .CALL {
     width: max-content;
     padding: 10px 20px;
     border: none;
@@ -636,8 +641,232 @@ input:focus {
     background-color: var(--section--bg-2);
     font-size: 17px;
     color: var(--white-color);
-   margin: auto !important;
-   margin-top: 20px !important;
-   display: flex;
+    margin: auto !important;
+    margin-top: 20px !important;
+    display: flex;
 }
+
 /***** End map-section *****/
+
+/***** work-cards *****/
+.work-cards {
+    padding: 50px 0px 50px 0px;
+}
+
+.work-cards .We-take {
+    color: var(--p-color);
+    padding-top: 2px;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.work-cards .item-style {
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.work-cards .item-style .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    transform: scale(0);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-style:hover .overlay {
+    transform: scale(1.1);
+    border-radius: 9px !important;
+
+}
+
+.fa-plus {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: var(--section--bg-2);
+    border-radius: 50%;
+}
+
+.fa-add:before,
+.fa-plus:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/***** End work-cards *****/
+
+/***** footer *****/
+footer {
+    background-color: var(--section-bg-1);
+    padding-bottom: 50px;
+}
+
+footer .style {
+    display: flex;
+    color: white;
+    gap: 25px;
+    padding: 35px 40px 20px 36px;
+}
+
+footer .set-border {
+    position: relative;
+}
+
+footer .set-border::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 70px;
+    top: 25%;
+    right: 0%;
+    border-right: 2px solid var(--white-color);
+}
+
+footer .style i {
+    padding-top: 1px;
+    font-size: 35px;
+}
+
+footer .style span {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+footer .style .box-one {
+    font-size: 17px;
+    line-height: 15px;
+    padding-top: 4px;
+}
+
+footer .bg-color {
+    border-radius: 5px;
+    background-color: var(--section--bg-2);
+}
+
+footer .logo {
+    margin-top: 60px;
+}
+
+footer .f-p {
+    color: white;
+    font-size: 17px;
+    padding-top: 6px;
+}
+
+.icon i {
+    color: white;
+    font-size: 19px;
+    padding: 12px;
+    margin: 0px 8px;
+    margin-top: 9px;
+    border: 1px solid #F6821E;
+    overflow: hidden;
+    position: relative;
+    z-index: 7;
+}
+
+footer .icon i::after {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -7;
+    transition: 0.5s;
+}
+
+footer .icon i:hover::after {
+    height: 45px;
+    background-color: var(--section--bg-2);
+}
+
+footer .menu {
+    margin-top: 80px;
+}
+
+footer .menu h2 {
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+
+footer .menu a {
+    color: var(--white-color);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+footer .menu li {
+    margin: 15px 0px;
+}
+
+footer .menu a:hover {
+    color: var(--section--bg-2);
+}
+
+footer .form-style {
+    margin-top: 20px;
+    padding: 9px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 1px solid var(--section--bg-2);
+
+}
+
+footer .form-style .input-group-text {
+    background-color: transparent;
+    border: navajowhite;
+}
+
+footer .form-style input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+footer ::placeholder {
+    color: white;
+    font-size: 17px;
+    left: 1px;
+}
+
+footer .checkbox {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ccc;
+}
+
+footer .I-agree {
+    color: white;
+    font-size: 17px;
+}
+
+footer .set-input {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .set-the-padding {
+    padding-left: 70px;
+}
+
+/***** End footer *****/
