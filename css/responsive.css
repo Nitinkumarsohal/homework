@@ -69,6 +69,10 @@
     #banner-section .input-text p {
         font-size: 15px;
     }
+
+    .commercial-cards .cards-style {
+        padding: 15px
+    }
 }
 
 
@@ -182,6 +186,21 @@
     footer .I-agree {
         font-size: 11px;
     }
+
+    .learn-about .We-install {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+
+    .learn-about .Hire {
+        font-size: 24px;
+        padding-bottom: 4px;
+        /* text-align: center; */
+    }
+
+    .commercial-cards .cards-style {
+        padding: 12px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -262,9 +281,9 @@
         line-height: 39px;
     }
 
-    .carousel-caption p {
-        font-size: 22px;
-        line-height: 27px;
+    #about-us .text li {
+        padding: 4px;
+        font-size: 12px;
     }
 
     .carousel-caption button {
@@ -367,6 +386,33 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .learn-about .learn-more {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+
+    .learn-about .text {
+        margin-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .commercial-cards .cards-style {
+        padding: 22px;
+        margin-top: 22px;
+    }
+
+    .s-cards .provide {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+    .s-cards .text button {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+    
+    
 }
 
 @media (max-width: 767.98px) {
@@ -480,8 +526,9 @@
     }
 
     .heading-style {
+        padding-bottom: 1px;
+        font-size: 33px;
 
-        padding-bottom: 20px;
     }
 
     footer .bg-color {
@@ -496,6 +543,31 @@
         margin: 0px;
         font-size: 16px;
         padding: 7px;
+    }
+
+    .learn-about .learn-more {
+        font-size: 18px;
+        padding-bottom: 0px;
+        line-height: 22px;
+    }
+
+    .learn-about .Get-a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 6px;
+        font-size: 15px;
+    }
+
+    .learn-about .img {
+        margin-top: 20px;
+    }
+
+    .commercial-cards .cards-style {
+        padding: 10px;
+        margin-top: 18px;
     }
 }
 
@@ -677,8 +749,55 @@
     iframe {
         height: 250px;
     }
+
     .map-section .map-style {
         padding: 12px;
+    }
+
+    .learn-about {
+        padding: 22px 0px 22px 0px;
+    }
+
+    .learn-about .learn-more {
+        font-size: 16px;
+    }
+
+    .learn-about .Get-a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 15px;
+        font-size: 11px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 15px;
+        font-size: 11px;
+        margin: 0px;
+    }
+
+    .learn-about .Hire {
+        font-size: 17px;
+        padding-bottom: 0px;
+        line-height: 25px;
+    }
+
+    .learn-about .We-install {
+        padding-top: 0px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .commercial-cards {
+        padding: 17px 0px 40px 0px;
+        background-color: #F8F8F8;
+    }
+    .s-cards .provide {
+        padding-bottom: 0px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
