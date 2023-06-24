@@ -48,10 +48,12 @@ a {
     text-decoration: none;
 }
 
+/***** Home page css *****/
 /***** header *****/
 header {
     background-color: var(--section-bg-1);
     padding: 7px;
+    z-index: 777 !important;
 }
 
 .nav-link {
@@ -466,7 +468,8 @@ input:focus {
     overflow: hidden;
     position: relative;
 }
-.commercial-cards .cards-style::before{
+
+.commercial-cards .cards-style::before {
     position: absolute;
     content: '';
     height: 6px;
@@ -476,7 +479,8 @@ input:focus {
     left: 50%;
     transition: 0.3s;
 }
-.commercial-cards .cards-style:hover::before{
+
+.commercial-cards .cards-style:hover::before {
     width: 100%;
     left: 0%;
     background-color: var(--section--bg-2);
@@ -516,7 +520,6 @@ input:focus {
     border-radius: 25px;
     border: 1px solid #D1DFF4;
     background: #FFF;
-    box-shadow: 0px 13px 72px 15px rgba(196, 197, 198, 0.12);
 }
 
 .s-cards .card-syle .img {
@@ -1019,3 +1022,319 @@ footer .set-the-padding {
 }
 
 /***** End footer *****/
+/***** End Home page css  *****/
+
+
+
+/***** about us css *****/
+#about-us-section {
+    min-height: 600px;
+    background-image: url("../images/b-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#about-us-section h3 {
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+/***** End about us css *****/
+
+/***** about-cards *****/
+#a-cards {
+    padding: 50px 0px 50px 0px;
+    background-color: #F8F8F8;
+}
+
+#a-cards p {
+    font-size: 17px;
+    color: var(--p-color);
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+#a-cards .style-box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 45px;
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+    min-height: 560px;
+
+}
+
+#a-cards .style-box::before {
+    position: absolute;
+    content: '';
+    height: 6px;
+    width: 0%;
+    background-color: var(--section--bg-2);
+    bottom: 0%;
+    left: 50%;
+    transition: 0.3s;
+}
+
+#a-cards .style-box:hover::before {
+    width: 100%;
+    left: 0%;
+}
+
+
+
+
+#a-cards .style-box .text {
+    padding-top: 22px;
+}
+
+#a-cards .style-box .text p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 24px;
+    padding-top: 7px;
+    color: var(--p-color);
+    padding-bottom: 10px;
+}
+
+#a-cards .style-box .text h4 {
+    font-size: 25px;
+}
+
+#a-cards .style-box .text a {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+/***** End about-cards *****/
+
+/***** banner-section-two *****/
+#b-2 {
+    min-height: 500px;
+    background-image: url("../images/a-banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#b-2 .text-box {
+    z-index: 777;
+}
+
+#b-2 .text-box h3 {
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 777 !important;
+
+}
+
+#b-2 .text-box p {
+    font-size: 17px;
+    line-height: 24px;
+    padding-top: 7px;
+    color: var(--white-color);
+    padding-bottom: 10px;
+}
+
+/***** End banner-section-two *****/
+
+/***** about us css close *****/
+
+
+
+/***** contact page css *****/
+/* c-section section  */
+#c-section {
+    min-height: 600px;
+    background-image: url("../images/c-banner.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#c-section .text h3 {
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* c-section section close */
+
+
+/***** contact-section *****/
+#contact-section {
+    padding: 50px 0px 50px 0px;
+    background-color: #F8F8F8;
+}
+
+#contact-section .style-box {
+    border-radius: 12px;
+    border: 1px solid #ECF1F9;
+    background: #FFF;
+    padding: 33px;
+    margin-top: 40px;
+
+}
+
+#contact-section .style-box h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#contact-section .style-box p {
+    font-size: 17px;
+    color: var(--p-color);
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    line-height: 22px;
+    padding-top: 1px;
+}
+
+#contact-section .style-box .call-box {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+}
+
+#contact-section .style-box .call-box .icon img {
+    width: 55px;
+    height: 55px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: var(--section--bg-2);
+}
+
+#contact-section .style-box .call-box .text h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+#contact-section .style-box .s-cions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+#contact-section .style-box .s-cions i {
+    padding: 17px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: var(--section-bg-1);
+    transition: 0.2s;
+}
+
+#contact-section .style-box .s-cions i:hover {
+    background-color: var(--section--bg-2);
+}
+
+#contact-section .form-style {
+    margin-top: 40px;
+    border-radius: 12px;
+    border: 1px solid #ECF1F9;
+    background: #FFF;
+    padding: 28px;
+    margin-top: 40px;
+
+
+}
+
+#contact-section .form-style .Have {
+    font-size: 17px;
+    color: var(--p-color);
+    text-align: right;
+    line-height: 2px;
+}
+
+#contact-section .form-style h4 {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#contact-section .form-style form {
+    margin-top: 25px;
+}
+
+#contact-section .form-style input {
+    width: 100%;
+    border-radius: 4px;
+    padding: 11px;
+    border: 2px solid #eeee;
+    background: #FFF;
+    margin: 9px 0px;
+}
+
+#contact-section .form-style textarea {
+    width: 100%;
+    border-radius: 4px;
+    padding: 11px;
+    border: 2px solid #eeee;
+    background: #FFF;
+    margin-top: 9px;
+    margin-bottom: 17px;
+}
+
+#contact-section .form-style ::placeholder {
+    text-transform: capitalize;
+    color: var(--p-color);
+}
+
+#contact-section .form-style .send {
+    width: max-content;
+    padding: 11px 70px;
+    background-color: var(--section--bg-2);
+    color: var(--white-color);
+    font-size: 17px;
+    margin: auto !important;
+    display: flex;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+/***** End contact-section *****/
+
+/***** map location *****/
+.map-location {
+    padding: 50px 0px 50px 0px;
+}
+
+.map-location iframe {
+    padding: 20px;
+    min-height: 500px;
+    border-radius: 7px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+/***** End map location *****/
+
+/***** End contact page css *****/
